@@ -18,6 +18,12 @@ namespace lab04
             System.Console.WriteLine(xerox.Counter);
             System.Console.WriteLine(xerox.PrintCounter);
             System.Console.WriteLine(xerox.ScanCounter);
+
+            IFax faxox = new MultifunctionalDevice();
+            faxox.PowerOn();
+            faxox.SendFax(new ImageDocument("ZDJECIE.JPG"), "+123456789");
+            faxox.ReceiveFax(out IDocument doc, IDocument.FormatType.JPG);
+            faxox.PowerOff();
         }
     }
 }
