@@ -3,9 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab04", "lab04\lab04.csproj", "{ED4C878F-22BF-4ED1-A18F-85E3D91DC69C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lab04", "lab04\lab04.csproj", "{ED4C878F-22BF-4ED1-A18F-85E3D91DC69C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab04_tests", "lab04_tests\lab04_tests.csproj", "{9C2C4A07-7EAD-43A7-B4C1-803A7E743025}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lab04_tests", "lab04_tests\lab04_tests.csproj", "{9C2C4A07-7EAD-43A7-B4C1-803A7E743025}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AA7271B4-8345-43C3-8D71-A7B840AE8362} = {AA7271B4-8345-43C3-8D71-A7B840AE8362}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab04_ex_03", "lab04_ex_03\lab04_ex_03.csproj", "{AA7271B4-8345-43C3-8D71-A7B840AE8362}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +26,10 @@ Global
 		{9C2C4A07-7EAD-43A7-B4C1-803A7E743025}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C2C4A07-7EAD-43A7-B4C1-803A7E743025}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C2C4A07-7EAD-43A7-B4C1-803A7E743025}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA7271B4-8345-43C3-8D71-A7B840AE8362}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA7271B4-8345-43C3-8D71-A7B840AE8362}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA7271B4-8345-43C3-8D71-A7B840AE8362}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA7271B4-8345-43C3-8D71-A7B840AE8362}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

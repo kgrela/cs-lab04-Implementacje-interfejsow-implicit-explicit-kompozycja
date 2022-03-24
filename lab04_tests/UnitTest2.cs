@@ -36,7 +36,6 @@ namespace lab04_tests
         [TestFixture]
         public class UnitTestFax
         {
-            // TODO: opracować brakujące testy jednostkowe dla interfejsu IFax i klasy MultifunctionalDevice
 
             [Test]
             public void Fax_GetState_StateOff()

@@ -14,5 +14,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\lab04\lab04.csproj" />
+    <ProjectReference Include="..\lab04_ex_03\lab04_ex_03.csproj" />
   </ItemGroup>
 </Project>
